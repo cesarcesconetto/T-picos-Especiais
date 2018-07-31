@@ -1,0 +1,19 @@
+	@prefix schema: <http://schema.org/> .
+	@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+	
+	[]
+	  a schema:Product ;
+	  schema:brand "Klopf"^^xsd:string ;
+	  schema:category "Acessórios para Festa Infantil"^^xsd:string ;
+	  schema:description "Aero Hockey 1,85 metros, em oferta na Kids Party! Alugue agora pelo menor preço!"^^xsd:string ;
+	  schema:height "0,90 m"^^xsd:string ;
+	  schema:name "Aero Hockey"^^xsd:string ;
+	  schema:offers [
+		a schema:Offer ;
+		schema:availability "http://schema.org/InStock"^^xsd:string ;
+		schema:itemCondition "http://schema.org/NewCondition"^^xsd:string ;
+		schema:price "150.00"^^xsd:string ;
+		schema:priceCurrency "BRL"^^xsd:string
+	  ] ;
+	  schema:weight "107 kg"^^xsd:string ;
+	  schema:width "1,85 m"^^xsd:string .

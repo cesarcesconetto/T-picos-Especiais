@@ -1,0 +1,19 @@
+	@prefix schema: <http://schema.org/> .
+	@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+	
+	[]
+	  a schema:Product ;
+	  schema:brand "Mundi Toys"^^xsd:string ;
+	  schema:category "Acessórios para Festa Infantil"^^xsd:string ;
+	  schema:description "Futebol de Sabão 10 metros, em oferta na Kids Party! Alugue agora pelo menor preço!"^^xsd:string ;
+	  schema:height "2,50 m"^^xsd:string ;
+	  schema:name "Futebol de Sabão"^^xsd:string ;
+	  schema:offers [
+		a schema:Offer ;
+		schema:availability "http://schema.org/InStock"^^xsd:string ;
+		schema:itemCondition "http://schema.org/NewCondition"^^xsd:string ;
+		schema:price "500.00"^^xsd:string ;
+		schema:priceCurrency "BRL"^^xsd:string
+	  ] ;
+	  schema:weight "130 kg"^^xsd:string ;
+	  schema:width "10,00 m"^^xsd:string .

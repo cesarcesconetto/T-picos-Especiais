@@ -1,0 +1,19 @@
+	@prefix schema: <http://schema.org/> .
+	@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+	
+	[]
+	  a schema:Product ;
+	  schema:brand "Lacuca Brinquedos"^^xsd:string ;
+	  schema:category "Acessórios para Festa Infantil"^^xsd:string ;
+	  schema:description "Basquete Eletrônico 1,60 metros, em oferta na Kids Party! Alugue agora pelo menor preço!"^^xsd:string ;
+	  schema:height "2,07 m"^^xsd:string ;
+	  schema:name "Basquete Eletrônico"^^xsd:string ;
+	  schema:offers [
+		a schema:Offer ;
+		schema:availability "http://schema.org/InStock"^^xsd:string ;
+		schema:itemCondition "http://schema.org/NewCondition"^^xsd:string ;
+		schema:price "120.00"^^xsd:string ;
+		schema:priceCurrency "BRL"^^xsd:string
+	  ] ;
+	  schema:weight "10 kg"^^xsd:string ;
+	  schema:width "2,07 m"^^xsd:string .

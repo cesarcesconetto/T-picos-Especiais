@@ -1,0 +1,19 @@
+	@prefix schema: <http://schema.org/> .
+	@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+	
+	[]
+	  a schema:Product ;
+	  schema:brand "Sewed"^^xsd:string ;
+	  schema:category "Acessórios para Festa Infantil"^^xsd:string ;
+	  schema:description "Aero Hockey 5 metros, em oferta na Kids Party! Alugue agora pelo menor preço!"^^xsd:string ;
+	  schema:height "4,20 m"^^xsd:string ;
+	  schema:name "Tobogã"^^xsd:string ;
+	  schema:offers [
+		a schema:Offer ;
+		schema:availability "http://schema.org/InStock"^^xsd:string ;
+		schema:itemCondition "http://schema.org/NewCondition"^^xsd:string ;
+		schema:price "280.00"^^xsd:string ;
+		schema:priceCurrency "BRL"^^xsd:string
+	  ] ;
+	  schema:weight "70 kg"^^xsd:string ;
+	  schema:width "5,00 m"^^xsd:string .
